@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Playground</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>🎮 DOM Playground</h2>
+
+        <!-- Section 1 - Change Text -->
+        <div class="card">
+            <h4>1. Change Text</h4>
+            <p id="myText">Hello! I am original text.</p>
+            <button onclick="changeText()">Change Text</button>
+        </div>
+
+        <!-- Section 2 - Change Color -->
+        <div class="card">
+            <h4>2. Change Color</h4>
+            <p id="colorText">Watch my color change🤷‍♀️!</p>
+            <button onclick="changeColor()">Change Color</button>
+        </div>
+
+        <!-- Section 3 - Hide and Show -->
+        <div class="card">
+            <h4>3. Hide and Show</h4>
+            <p id="hideText"> I am strong, confident, fearless, and unstoppable. 💪✨👑!</p>
+            <button onclick="hideElement()">Hide</button>
+            <button onclick="showElement()">Show</button>
+        </div>
+
+        <!-- Section 4 - User Input -->
+        <div class="card">
+            <h4>4. User Input</h4>
+            <input type="text" id="nameInput" placeholder="Type your name">
+            <button onclick="greetUser()">Greet Me</button>
+            <p id="greetMsg"></p>
+        </div>
+
+    </div>
+
+    <script src="dom.js"></script>
+</body>
+</html>
